@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cronometro</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="gradient">Cronômetro</h1>
+        <div class="cronometro-container" id="cronometro-container">
+            <div class="cronometro" id="cronometro">
+                <span class="cronometro-min">0</span>
+                <span class="decor">|</span>
+                <span class="cronometro-seg">0</span>
+                <span class="cronometro-miliseg">0</span>
+            </div>
+            <div class="cronometro-border" id="cronometro-border"></div>
+        </div>
+        <div class="cronometro-opcoes" id="cronometro-opcoes">
+            <button id="cronometro-reiniciar">Reset</button>
+            <button id="cronometro-iniciar">►</button>
+            <button id="cronometro-anotar">Note</button>
+        </div>
+        <div class="cronometro-score" id="cronometro-score"></div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
